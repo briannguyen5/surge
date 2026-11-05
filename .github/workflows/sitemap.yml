@@ -32,7 +32,7 @@ jobs:
           import subprocess
 
 
-          base_url = "https://briannguyen.surge.sh/"
+          base_url = "https://briannguyen.surge.sh"
           excluded = {"404.html"}
 
 
