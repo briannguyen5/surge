@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://briannguyen.surge.sh/sitemap.xml
