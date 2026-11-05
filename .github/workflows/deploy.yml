@@ -22,12 +22,7 @@ jobs:
         with:
           node-version: 20
 
-      - name: Generate sitemap.xml
-        run: |
-          # Tạo sitemap đơn giản hoặc chạy lệnh build sitemap của bạn tại đây nếu có
-          # Ví dụ tự tạo danh sách file html hoặc dùng công cụ sitemap
-
       - name: Deploy to Surge
-        run: npx --yes surge@latest ./ briannguyen.surge.sh
+        run: npx --yes surge@latest . briannguyen.surge.sh
         env:
           SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
