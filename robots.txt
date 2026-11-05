@@ -1,6 +1,4 @@
-# Cho phép tất cả các công cụ tìm kiếm cào dữ liệu
 User-agent: *
 Allow: /
 
-# Đường dẫn đến file Sitemap
 Sitemap: https://briannguyen.surge.sh/sitemap.xml
